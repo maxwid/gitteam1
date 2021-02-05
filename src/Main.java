@@ -7,7 +7,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         //Simple calculator
-        // Enter the first
         System.out.println("Give the first number:");
         int num1 = Integer.parseInt(scanner.nextLine());
         System.out.println("Give the second number:");
@@ -16,15 +15,29 @@ public class Main {
 
         System.out.println("The Result");
         System.out.println(+num1+ " * " +num2+ " = " + (multi(num1,num2)));
-        System.out.println(+num1+ " / " +num2+ " = " + (1.0*div(num1,num2)));
+
+        int input1 = 3;
+        int input2 = 5;
+        int numberToSubtractFrom = 75;
+        int numberToSubtract = 50;
+
+        int result1 = addition(input1, input2);
+        int result = subtract(numberToSubtract, numberToSubtractFrom);
+        System.out.println(input1 + " + " + input2 + " = " + result1);
+        System.out.println("This is the result: " + result);
 
         }
-        //Method for
-        public static int multi (int num1, int num2) {
-            return num1*num2;
+
+        public static int multi(int num1, int num2) {
+        return num1 * num2;
         }
 
-        public static int div (int num1, int num2) {
-        return num1/num2;
+        public static int subtract(int numToSub, int numFrom) {
+        return numFrom-numToSub;
+        }
+
+        public static int addition(int a, int b) {
+        return (a+b);
     }
 }
+
