@@ -16,14 +16,9 @@ public class Main {
         System.out.println("The Result");
         System.out.println(+num1+ " * " +num2+ " = " + (multi(num1,num2)));
 
-
-        int numberToSubtractFrom = 75;
-        int numberToSubtract = 50;
-
+        multi(num1, num2);
+        subtract(num1, num2);
         addition(num1, num2);
-        int result = subtract(numberToSubtract, numberToSubtractFrom);
-
-        System.out.println("This is the result: " + result);
 
         }
 
