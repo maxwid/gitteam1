@@ -6,6 +6,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
+        //Simple calculator
         System.out.println("Give the first number:");
         int num1 = Integer.valueOf(scanner.nextLine());
         System.out.println("Give the second number:");
