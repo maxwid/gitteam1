@@ -6,15 +6,21 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
+
         //Simple calculator
+        //Enter your numbers and the system will do the math for you!
+
+        //Scanner for input - Tobias
         System.out.println("Give the first number:");
         int num1 = Integer.parseInt(scanner.nextLine());
         System.out.println("Give the second number:");
         int num2 = Integer.parseInt(scanner.nextLine());
         System.out.println("");
 
+        //The Results are printed - Tobias
         System.out.println("The Result");
         System.out.println(+num1+ " * " +num2+ " = " + (multi(num1,num2)));
+
 
         int input1 = 3;
         int input2 = 5;
@@ -28,6 +34,7 @@ public class Main {
 
         }
 
+        //Method for multiplication -Tobias
         public static int multi(int num1, int num2) {
         return num1 * num2;
         }
