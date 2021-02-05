@@ -24,7 +24,7 @@ public class Main {
     }
 
     public static void subtract(int numToSub, int numFrom) {
-        System.out.println("If you subtract " + numFrom + " from " + numToSub + " you get: " + (numToSub - numFrom));
+            System.out.println("If you subtract " + numFrom + " from " + numToSub + " you get: " + (numToSub - numFrom));
     }
 
     public static int addition(int a, int b) {
